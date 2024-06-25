@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "sans light";
+    src: url("../font/IRANSansWeb_Light.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "sans regular";
+    src: url("../font/IRANSansWeb_FaNum.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "sans medium";
+    src: url("../font/IRANSansWeb_FaNum_Medium.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "sans bold";
+    src: url("../font/IRANSansWeb_Bold.woff2") format("woff2");
+    font-display: swap;
+}

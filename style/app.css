@@ -1,0 +1,50 @@
+:root {
+  --font-light: "sans light";
+  --font-regular: "sans regular";
+  --font-medium: "sans medium";
+  --font-bold: "sans bold";
+  --title-color: #000000;
+  --text-color: #333333;
+  --bg-color: #fff;
+  --primery-color: #ff5722;
+  --color-orenge: #f57f17;
+}
+
+html {
+  font-size: 62.5%;
+  /* عوض کردن واحد rem */
+  /* 62.5% = 10px */
+  -webkit-tap-highlight-color: transparent;
+  /* رفع کردن بگراند هنگام کلیک در موبایل */
+  /* اما ساپورت مرورگرش ضعیفه */
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.6;
+  font-family: var(--font-medium);
+  font-size: 1.6rem;
+}
+
+/* helper class */
+
+.btn {
+  background-color: var(--primery-color);
+  border-radius: 0.8rem;
+  color: var(--bg-color);
+  font-family: var(--font-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
