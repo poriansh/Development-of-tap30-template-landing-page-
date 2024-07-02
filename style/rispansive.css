@@ -1,32 +1,39 @@
-@media (min-width : 576px){
-
-
-    
+@media (min-width: 576px) {
 }
 
-@media (min-width : 768px){
+@media (min-width: 768px) {
+  .nav-taggel {
+    display: none;
+  }
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    position: static;
+    height: auto;
+    overflow: visible;
     
-    
-        
+  }
+  .header__menu{
+    flex-direction: row;
+  }
 }
-@media (min-width : 992px){
-    
+@media (min-width: 992px) {
+  .header__link {
+    font-size: 1.5rem;
+  }
+  .header__btn {
+    font-size: 1.5rem;
+  }
+  .header-nav {
+    gap: 4rem;
+  }
+  .header__menu {
+    gap: 2rem;
+  }
 }
-@media (min-width : 1200px){
-     
+@media (min-width: 1200px) {
 }
-@media (min-width : 1400px ){
-    
+@media (min-width: 1400px) {
 }
-
-
-    
-    
-
-
-        
-
-
-
-
-        

@@ -8,6 +8,7 @@
   --bg-color: #fff;
   --primery-color: #ff5722;
   --color-orenge: #f57f17;
+  --transition: all 200ms ease;
 }
 
 html {
@@ -28,7 +29,7 @@ html {
 
 body {
   line-height: 1.6;
-  font-family: var(--font-medium);
+  font-family: var(--font-regular);
   font-size: 1.6rem;
 }
 
@@ -38,13 +39,107 @@ body {
   background-color: var(--primery-color);
   border-radius: 0.8rem;
   color: var(--bg-color);
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.flex {
+.flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* header */
+
+.header {
+  background-color: #f8f8f8;
+}
+.header-werraper {
+  padding: 0.8rem;
+  position: relative;
+}
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.header__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.header__item {
+}
+.header__link {
+  color: #545454;
+  transition: var(--transition);
+  font-size: 1.4rem;
+}
+.header__link:hover {
+  color: var(--primery-color);
+}
+.header__btn {
+  padding: 0.7rem 4rem;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  transition: var(--transition);
+}
+.header__btn:hover {
+  transform: scale(0.95);
+}
+.header-logo {
+}
+.nav-taggel {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-taggel__line {
+  position: relative;
+  transition: all 150ms ease-in;
+}
+.nav-taggel__line,
+.nav-taggel__line::after,
+.nav-taggel__line::before {
+  content: " ";
+  position: absolute;
+  width: 2.4rem;
+  height: 0.2rem;
+  background-color: var(--title-color);
+  border-radius: 2rem;
+}
+.nav-taggel__line::after {
+  top: 0.7rem;
+  transition: all 200ms ease-in;
+}
+.nav-taggel__line::before {
+  bottom: 0.7rem;
+  transition: all 200ms ease-in;
+}
+.nav-taggel__line--open {
+  background-color: transparent;
+}
+.nav-taggel__line--open::after {
+  transform: translateY(-7px) rotate(-45deg);
+}
+.nav-taggel__line--open::before {
+  transform: translateY(7px) rotate(45deg);
 }
