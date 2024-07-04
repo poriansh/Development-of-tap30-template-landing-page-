@@ -13,10 +13,32 @@
     position: static;
     height: auto;
     overflow: visible;
-    
   }
-  .header__menu{
+  .header__menu {
     flex-direction: row;
+  }
+  .home {
+    padding: 0;
+    padding-bottom: 5rem;
+    background: url("../images/banner.jpg") no-repeat;
+    background-size: cover;
+    max-height: 38rem;
+  }
+  .home-werraper {
+    justify-content: space-between;
+  }
+  .home-right {
+    width: 528px;
+    border-radius: 0 0 2rem 2rem;
+  }
+  .home-right__title {
+  }
+  .home-links {
+  }
+  .home-links__btn {
+    width: 48%;
+  }
+  .home-links__btn--white {
   }
 }
 @media (min-width: 992px) {
@@ -31,6 +53,9 @@
   }
   .header__menu {
     gap: 2rem;
+  }
+  .home__img {
+    display: flex;
   }
 }
 @media (min-width: 1200px) {
