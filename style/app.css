@@ -59,6 +59,8 @@ body {
 
 .header {
   background-color: #f8f8f8;
+  position: sticky;
+  top: 0;
 }
 .header-werraper {
   padding: 0.8rem;
