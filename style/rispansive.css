@@ -13,9 +13,11 @@
     position: static;
     height: auto;
     overflow: visible;
+    background-color: transparent;
   }
   .header__menu {
     flex-direction: row;
+    padding: 0;
   }
   .home {
     padding: 0;
@@ -38,7 +40,11 @@
   .home-links__btn {
     width: 48%;
   }
-  .home-links__btn--white {
+  .header__btn {
+    margin-bottom: 0;
+  }
+  .service__title{
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 992px) {
