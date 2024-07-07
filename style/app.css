@@ -103,6 +103,7 @@ body {
   line-height: 3rem;
   transition: var(--transition);
   margin-bottom: 1.6rem;
+  margin-right: 1.6rem;
 }
 .header__btn:hover {
   transform: scale(0.95);
@@ -287,4 +288,47 @@ body {
 }
 .service-discription__img {
   display: none;
+}
+
+/* special-services */
+
+.special-services {
+  margin-top: 5rem;
+}
+.special-services-werraper {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  
+}
+.special-services-werraper img {
+  width: 100%;
+  display: block;
+  margin-top: 3rem;
+  padding-right: 4rem;
+}
+.special-services-discription {
+}
+.special-services__title {
+  font-size: 2.2rem;
+  color: var(--title-color);
+  font-family: var(--font-bold);
+}
+.special-services__caption {
+  font-size: 1.4rem;
+  line-height: 32px;
+  text-align: justify;
+  color: var(--text-color);
+  margin-top: 3rem;
+}
+.special-services__link {
+  display: inline-flex;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+}
+.special-services__link:hover {
+background-color: #ff6738;
+
+}
+.btn {
 }
