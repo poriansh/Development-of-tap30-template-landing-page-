@@ -1,4 +1,7 @@
 @media (min-width: 576px) {
+  .product-werraper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 768px) {
@@ -50,19 +53,22 @@
     display: block;
     width: 40%;
   }
-  .special-services-werraper{
+  .special-services-werraper {
     flex-direction: row-reverse;
     align-items: flex-start;
   }
-  .special-services-werraper img{
+  .special-services-werraper img {
     width: 50%;
-    
   }
   .special-services__title {
+    font-size: 3.5rem;
+  }
+  .special-services__caption {
+    font-size: 1.8rem;
+  }
+  .product__caption {
   font-size: 3.5rem;
-}
-.special-services__caption {
-  font-size: 1.8rem;
+  
 }
 }
 @media (min-width: 992px) {
@@ -89,6 +95,9 @@
   }
   .service-discription__img {
     width: 50%;
+  }
+  .product-werraper {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (min-width: 1200px) {

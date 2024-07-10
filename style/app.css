@@ -299,7 +299,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  
 }
 .special-services-werraper img {
   width: 100%;
@@ -327,8 +326,104 @@ body {
   margin-top: 3rem;
 }
 .special-services__link:hover {
-background-color: #ff6738;
-
+  background-color: #ff6738;
 }
-.btn {
+
+/* product */
+
+.product {
+  margin-top: 10rem;
+}
+.product__caption {
+  font-size: 2.2rem;
+  color: var(--title-color);
+  font-family: var(--font-bold);
+}
+.product-werraper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5rem;
+  margin-top: 5rem;
+}
+.product-box {
+  overflow: hidden;
+  border-radius: 2rem;
+  color: var(--bg-color);
+  transition: all 0.2s ease-in;
+}
+.product__header {
+  padding: 2rem;
+  background-color: #ffa589;
+  transition: all 0.2s ease-in;
+}
+.product__tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__type {
+}
+.product__discount {
+  color: var(--primery-color);
+  background-color: var(--bg-color);
+  border-radius: 3.2rem;
+  font-size: 1.4rem;
+  border: 2px solid var(--primery-color);
+  padding: 2px 10px;
+  transition: all 0.2s ease-in;
+}
+.product-price {
+  margin-block: 1.5rem;
+  font-size: 1.8rem;
+}
+.product-price__main {
+  font-size: 2rem;
+  font-family: var(--font-medium);
+}
+.product__title {
+  font-size: 1.6rem;
+  font-family: var(--font-medium);
+}
+.product__body {
+  background-color: #fff6f2;
+  padding: 2rem;
+}
+.product__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.product__list li {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.product__list a {
+  color: #444242;
+  font-size: 1.8rem;
+  font-family: var(--font-medium);
+}
+.product__link {
+  width: 100%;
+  height: 5rem;
+  margin: 0 auto;
+  background-color: #ffa589;
+  margin-top: 3rem;
+  transition: all 0.2s ease-in;
+}
+
+.product-box:hover .product__header {
+  background-color: #ff7a50;
+}
+.product-box:hover .product__discount {
+  background-color: var(--primery-color);
+  color: var(--bg-color);
+}
+.product-box:hover .product__link {
+  background-color: var(--primery-color);
+}
+.product-box:hover {
+  transform: translateY(-4rem);
 }
