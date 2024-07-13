@@ -427,3 +427,97 @@ body {
 .product-box:hover {
   transform: translateY(-4rem);
 }
+
+/* teravel */
+
+.teravel {
+  margin-top: 10rem;
+}
+.teravel__title {
+  font-size: 2.2rem;
+  color: var(--title-color);
+  font-family: var(--font-bold);
+}
+.teravel-werraper {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 15rem;
+}
+.teravel-box {
+  height: 25rem;
+  position: relative;
+}
+.teravel__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+.teravel-discription {
+  padding: 2rem;
+  background-color: var(--bg-color);
+  border-radius: 2rem;
+  width: 90%;
+  box-shadow: 0px 80px 100px 0px #00000029;
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  bottom: -40%;
+
+}
+.teravel-tag {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.teravel__special {
+  font-size: 1.4rem;
+  background-color: #FE4E00;
+  color: var(--bg-color);
+  padding: 0.3rem 1.5rem;
+  border-radius: 2rem;
+
+}
+.teravel__caption {
+  font-size: 1.2rem;
+  color: #7B7B7B;
+  font-family: var(--font-medium);
+}
+.teravel-box__title{
+  margin-block: 1rem;
+  color: #524F4F;
+  font-family: var(--font-bold);
+  display: block;
+
+}
+.teravel-avatar {
+  display: flex;
+  align-items: center;
+}
+.teravel-avatar__img {
+  width: 5rem;
+  height: 5rem;
+  margin-left: -17px;
+  cursor: pointer;
+  transition: all 150ms ease-in;
+}
+.teravel-avatar__img:hover {
+  transform: translate(8px);
+}
+.teravel-avatar__img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 4px solid var(--bg-color);
+}
+.teravel-avatar__text {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--color-orenge);
+  border-radius: 100%;
+  color: var(--bg-color);
+  font-family: var(--font-bold);
+}

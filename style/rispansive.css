@@ -2,6 +2,10 @@
   .product-werraper {
     grid-template-columns: repeat(2, 1fr);
   }
+  .teravel-werraper{
+    grid-template-columns: repeat(2,1fr);
+    gap: 15rem 3rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -67,9 +71,12 @@
     font-size: 1.8rem;
   }
   .product__caption {
-  font-size: 3.5rem;
+    font-size: 3.5rem;
+  }
+  .teravel__title{
+    font-size: 3.5rem;
+  }
   
-}
 }
 @media (min-width: 992px) {
   .header__link {
@@ -98,6 +105,9 @@
   }
   .product-werraper {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .teravel-werraper{
+    grid-template-columns: repeat(3,1fr);
   }
 }
 @media (min-width: 1200px) {
