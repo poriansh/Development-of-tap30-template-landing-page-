@@ -5,10 +5,8 @@ taggelmenu.addEventListener("click", () => {
   taggel.classList.toggle("nav-taggel__line--open");
   if (navmenu.style.height) {
     navmenu.style.height = null;
-    navmenu.classList.remove("header-nav--active");
   } else {
     navmenu.style.height = navmenu.scrollHeight + "px";
-    navmenu.classList.add("header-nav--active");
   }
 });
 
