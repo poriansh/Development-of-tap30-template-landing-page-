@@ -6,6 +6,9 @@
     grid-template-columns: repeat(2,1fr);
     gap: 15rem 3rem;
   }
+  .footer-copy{
+    font-size: 1.4rem;
+  }
 }
 
 @media (min-width: 768px) {
