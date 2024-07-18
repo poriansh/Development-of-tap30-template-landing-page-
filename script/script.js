@@ -1,6 +1,6 @@
-let taggelmenu = document.querySelector(".nav-taggel");
-let taggel = document.querySelector(".nav-taggel__line");
-let navmenu = document.querySelector(".header-nav");
+const taggelmenu = document.querySelector(".nav-taggel");
+const taggel = document.querySelector(".nav-taggel__line");
+const navmenu = document.querySelector(".header-nav");
 taggelmenu.addEventListener("click", () => {
   taggel.classList.toggle("nav-taggel__line--open");
   if (navmenu.style.height) {
